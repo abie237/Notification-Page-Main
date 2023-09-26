@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="/sass/style.css">
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!--tailwind cdn-->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="flex justify-center items-center h-screen">
+
+  <main class="flex flex-col items-center ">
+   
+    <div class="notif-header  flex justify-between items-center">
+      <h1 class="text-bold">Notifications <span class="length">3</span></h1>
+      <p class="check">Mark all as Read</p>
+    </div>
+
+    <div class="notif-wrapper flex flex-col">
+      <div class="notification flex items-center active">
+        <img src="/assets/images/avatar-mark-webber.webp" alt="mark Webbet img">
+        <div class="notice ">
+          <p><span class="name">Mark Weber</span> reacted to your recent post  <span class="post">My First Tournament</span></p>
+          <p class="time">1m ago</p>
+        </div>
+      </div>
+
+      <div class="notification flex items-center active">
+        <img src="/assets/images/avatar-angela-gray.webp" alt="mark Webbet img">
+        <div class="notice">
+          <p><span class="name">Angela Gray</span> followed you</p>
+          <p class="time">5m ago</p>
+        </div>
+      </div>
+
+      <div class="notification flex items-center active">
+        <img src="/assets/images/avatar-jacob-thompson.webp" alt="mark Webbet img">
+        <div class="notice">
+          <p><span class="name">Jacob Thompson</span> has joined your group <span class="group">Chess club</span></p>
+          <p class="time">1day ago</p>
+        </div>
+      </div>
+
+      <div class="notification flex items-center">
+        <img src="/assets/images/avatar-rizky-hasanuddin.webp" alt="mark Webbet img">
+        <div class="notice rizzy">
+          <p><span class="name">Rizky Hassanuddin</span> sent you a private message <span class="group">Chess club</span></p>
+          <p class="time">5days ago</p>
+          <div class="content">
+            <p>
+              Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+              I'm already having lots of fun and improving my game.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="notification flex items-center">
+        <img src="/assets/images/avatar-kimberly-smith.webp" alt="mark Webbet img">
+        <div class="notice">
+          <p><span class="name">Kimberly Smith</span>  commented on your picture </p>
+          <p class="time">1day ago</p>
+        </div>
+      </div>
+
+      <div class="notification flex items-center">
+        <img src="/assets/images/avatar-nathan-peterson.webp" alt="mark Webbet img">
+        <div class="notice">
+          <p><span class="name">Nathan Patterson</span>  reacted to you post 5 end-game strategies to increase win rate </p>
+          <p class="time">1day ago</p>
+        </div>
+      </div>
+
+      <div class="notification flex items-center">
+        <img src="/assets/images/avatar-anna-kim.webp" alt="mark Webbet img">
+        <div class="notice">
+          <p><span class="name">Kimberly Smith</span> joined the group <span class="group">Chess club</span></p>
+          <p class="time">2weeks ago</p>
+        </div>
+      </div>
+    </div>
+  </main>
+   
+
+  <!-- Notifications 3
+
+  Mark all as read
+
+   reacted to your recent post
+  1m ago
+
+  Angela Gray followed you
+  5m ago
+
+  Jacob Thompson has joined your group Chess Club
+  1 day ago
+
+  Rizky Hasanuddin sent you a private message
+  5 days ago
+  
+
+  Kimberly Smith commented on your picture
+  1 week ago
+
+  Nathan Peterson reacted to your recent post 5 end-game strategies to increase your win rate
+  2 weeks ago
+
+  Anna Kim left the group Chess Club
+  2 weeks ago
+   -->
+
+   <script src="/sass/script.js"></script>
+</body>
+</html>
