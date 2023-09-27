@@ -8,7 +8,7 @@ $Very_dark_blue: hsl(224, 21%, 14%);
 
 *{
     margin: 0;
-    padding: 0;
+    padding: 0; 
     box-sizing: border-box;
 }
 body{
@@ -28,6 +28,7 @@ main{
 .notif-header{
     width: 95%;
     margin:0 auto;
+    padding: 5px 0 5px 0;
 
     h1{
         font-weight: bold;
@@ -147,11 +148,17 @@ main{
         font-size: 10px;
     }
     main{
-        height: 95%;
-        width: 98%;
+        min-height: 100%;
+        width: 100%;
     }
     .rizzy .content{
         font-size: 10px;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    main{
+        gap: 0px;
     }
 }
